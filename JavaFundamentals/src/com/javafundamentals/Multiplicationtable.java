@@ -6,12 +6,12 @@ public class Multiplicationtable {
 		
 		System.out.println("Multiplication Table(Ascending Order):");
 		for(int i=1; i<=n; ++i) {
-			System.out.println("\t\t\t\t\t\t"+n+"x"+i+"="+i*n);
+			System.out.println(" "+n+"x"+i+"="+i*n);
 			//System.out.println(i);
 		}
 		System.out.println("Multiplication Table(Descending Order):");
 		for(int i=n; i>=1; --i) {
-			System.out.println("\t\t\t\t\t\t"+n+"x"+i+"="+i*n);
+			System.out.println(" "+n+"x"+i+"="+i*n);
 			//System.out.println(i);
 		}
 	}
